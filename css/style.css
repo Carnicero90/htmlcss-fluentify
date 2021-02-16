@@ -1,12 +1,11 @@
 /* RESET */
-
+/* personalmente mi trovo bene a inserire queste "clausole" varie generali più nel reset che tra i common */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 1em;
 }
-
-/* COMMON */
 
 img {
     width: 100%;
@@ -16,6 +15,14 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+li {
+    list-style-type: none;
+}
+/* END RESET */
+
+
+/* COMMON */
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -24,14 +31,13 @@ body {
     padding: 0 8%;
 }
 
-.floater {
-    float: left;
-}
-
 .float-container::after {
     display: table;
     content: "";
     clear: both;
+}
+.floater {
+    float: left;
 }
 
 .btn {
@@ -120,7 +126,7 @@ header li {
 
 .grey {
     background-color: #d3d3d3;
-    padding: 45px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -166,7 +172,10 @@ header li {
 .half img {
     height: 100%;
 }
-
+.half a {
+    text-decoration: underline;
+    color: #5586bc;
+}
 /* END MAIN */
 
 /* FOOTER */
@@ -179,13 +188,21 @@ select {
     border-bottom: 1px solid grey;
 }
 
+footer .float-container *{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
 footer .floater:nth-child(1) {
-    width: 20%;
-    text-align: right;
+    width: 60%;
+    text-align: left;
 }
 footer .floater:nth-child(1n +2){
-    text-align: right;
-    width: 40%;
+    width: 20%;
+}
+footer .btn {
+    font-size: 90%;
 }
 /* END FOOTER */
 

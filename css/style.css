@@ -30,6 +30,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main h2 {
+    font-size: 150%;
+}
+
 .wrapper {
     padding: 0 8%;
 }
@@ -61,15 +65,19 @@ body {
 /* END COMMON */
 
 /* FIXED */
+
 .fixed-btn {
     position: fixed;
     right: 0;
     bottom: 0;
 }
+
 /* END FIXED */
 
 /* HEADER */
-    /* Header common */
+
+/* Header common */
+
 header {
     background-image: url('../img/background-header.png');
     color: white;
@@ -78,14 +86,17 @@ header {
     background-repeat: no-repeat;
     background-position: 120% 110%;
 }
-    /* END Header common */
 
-    /* Nav*/
+/* END Header common */
+
+/* Nav*/
+
 nav {
     padding: 2% 0;
     font-size: 80%;
     height: 40px;
 }
+
 nav * {
     vertical-align: middle;
 }
@@ -98,6 +109,7 @@ nav * {
     width: 50%;
     padding-left: 3%;
 }
+
 .nav-right {
     width: 40%;
     text-align: right;
@@ -120,9 +132,11 @@ header li {
     width: 50%;
     padding: 100px 0;
 }
+
 h1 {
     font-size: 180%;
 }
+
 .banner .btn {
     margin-top: 10px;
 }
@@ -130,6 +144,7 @@ h1 {
 /* END HEADER */
 
 /* MAIN */
+
 p {
     color: #808080;
 }
@@ -141,27 +156,28 @@ p {
 }
 
 /* Course-layout section */
+
 .course-layout {
     text-align: center;
 }
+
 .course-layout .floater {
     width: 33.33333%;
 }
+
 .course-layout .floater img {
-    height: 100px;
+    height: 50%;
     margin: 10px;
 }
 
 .course-layout h3 {
     font-size: 120%;
     color: green;
-    margin: 20px;
 }
 
-
 .course-layout .floater .col-header {
-    height: 200px;
-    /* brutta soluzione, ma "comoda" per tenere gli hr alla stessa altezza */
+    height: 150px;
+    /* brutta soluzione, ma "comoda" per tenere gli hr alla stessa altezza (a meno di non usare piu float, per quanto ne so)*/
 }
 
 .course-layout hr {
@@ -173,15 +189,16 @@ p {
     padding-bottom: 20px;
 }
 
-hr {
+main hr {
     width: 96%;
     margin: auto;
     color: #d3d3d3;
 }
+
 .half {
     height: 500px;
     width: 50%;
-    padding: 4%;
+    padding: 3%;
 }
 
 .half img {
@@ -192,16 +209,17 @@ hr {
     text-decoration: underline;
     color: #5586bc;
 }
+
 .half .text-content * {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 /* END MAIN */
 
 /* FOOTER */
+
 footer {
     line-height: 50px;
-
 }
 
 footer h3 {
@@ -211,6 +229,7 @@ footer h3 {
 label {
     color: #808080;
 }
+
 select {
     color: #808080;
     background-color: transparent;
@@ -234,6 +253,5 @@ footer .floater:nth-child(1n+2) {
     width: 25%;
     text-align: right;
 }
-
 
 /* END FOOTER */

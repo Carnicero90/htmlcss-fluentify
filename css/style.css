@@ -153,6 +153,7 @@ main p {
 }
 
 .course-layout h3 {
+    font-size: 120%;
     color: green;
     margin: 20px;
 }
@@ -175,11 +176,12 @@ main p {
 hr {
     width: 96%;
     margin: auto;
+    color: #d3d3d3;
 }
 .half {
     height: 500px;
     width: 50%;
-    padding: 8%;
+    padding: 4%;
 }
 
 .half img {
@@ -213,12 +215,12 @@ footer .float-container * {
 }
 
 footer .floater:nth-child(1) {
-    width: 60%;
+    width: 50%;
     text-align: left;
 }
 
 footer .floater:nth-child(1n+2) {
-    width: 20%;
+    width: 25%;
 }
 
 footer .btn {

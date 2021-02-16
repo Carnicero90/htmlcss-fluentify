@@ -130,13 +130,13 @@ h1 {
 /* END HEADER */
 
 /* MAIN */
-main p {
+p {
     color: #808080;
 }
 
 .grey {
     background-color: #d3d3d3;
-    padding: 40px;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -199,19 +199,30 @@ hr {
 /* END MAIN */
 
 /* FOOTER */
+footer {
+    line-height: 50px;
 
+}
+
+footer h3 {
+    font-size: 130%;
+}
+
+label {
+    color: #808080;
+}
 select {
+    color: #808080;
     background-color: transparent;
     border-color: transparent;
-    font-size: 100%;
-    width: 100px;
+    width: 120px;
     border-bottom: 1px solid grey;
+    appearance: none;
 }
 
 footer .float-container * {
     display: inline-block;
     vertical-align: middle;
-    line-height: 50px;
 }
 
 footer .floater:nth-child(1) {
@@ -221,10 +232,8 @@ footer .floater:nth-child(1) {
 
 footer .floater:nth-child(1n+2) {
     width: 25%;
+    text-align: right;
 }
 
-footer .btn {
-    font-size: 90%;
-}
 
 /* END FOOTER */

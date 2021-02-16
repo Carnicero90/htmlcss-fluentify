@@ -171,7 +171,7 @@ main .grey, .course-layout {
 }
 
 .course-layout .floater img {
-    height: 50%;
+    height:  70%;
     margin: 10px;
 }
 
@@ -180,9 +180,12 @@ main .grey, .course-layout {
     color: green;
 }
 
-.course-layout .floater .col-header {
-    height: 150px;
-    /* brutta soluzione, ma "comoda" per tenere gli hr alla stessa altezza (a meno di non usare piu float, per quanto ne so)*/
+.course-layout .col-pic {
+    height: 250px;
+}
+
+.course-layout .col-text h3{
+    min-height: 80px;
 }
 
 .course-layout hr {
@@ -242,8 +245,8 @@ select {
     background-color: transparent;
     border-color: transparent;
     width: 120px;
-    border-bottom: 1px solid grey;
     appearance: none;
+    border-bottom: 1px solid grey;
 }
 
 footer .floater:nth-child(1) {
